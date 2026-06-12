@@ -12,7 +12,7 @@ exports.handler = async (event) => {
   return {
     statusCode: 302,
     headers: {
-      Location: `https://portalcandle.com/meta-checkout?products=${encodeURIComponent(productsParam)}`,
+      Location: `https://portalcandle.com/shop?meta_products=${encodeURIComponent(productsParam)}`,
       'Cache-Control': 'no-cache',
     },
   };
